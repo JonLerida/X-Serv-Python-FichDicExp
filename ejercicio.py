@@ -19,3 +19,5 @@ try:
 except KeyError:
     print("ERROR!\nEl usuario no existe")
     raise SystemExit
+
+fd.close()
