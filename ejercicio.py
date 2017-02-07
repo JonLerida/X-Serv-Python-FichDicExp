@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#Ejercicio 13.5 
 fd = open("/etc/passwd", "r")             #Lo abrimos en lectura solo, si no da error
 
 lineas = fd.readlines()
